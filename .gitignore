@@ -15,7 +15,6 @@ Thumbs.db
 desktop.ini
 
 # the composer package lock file and install directory
-/composer.lock
 /fuel/vendor
 
 # any of the fuel packages installed by default
@@ -31,3 +30,22 @@ desktop.ini
 /fuel/app/logs/*/*/*
 /fuel/app/cache/*/*
 /fuel/app/config/crypt.php
+/fuel/app/config/vagrant/migrations.php
+
+# Vagrant
+.vagrant/
+
+# Chef
+cookbooks/
+site-cookbooks/
+
+# Berks
+Berksfile.lock
+
+# Gulp
+node_modules/
+.module-cache/
+.sass-cache/
+
+# npm
+npm-debug.log
